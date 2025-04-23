@@ -6,6 +6,8 @@ import Sea from './search.png'
 import st from './stack.png'
 import Pul from './plus.png'
 import Arr from './arrow.png'
+import bappa from './bappa.jpg'
+import c from './c.jpg'
 export const assets = {
     perfect,
     perfectm,
@@ -21,8 +23,25 @@ export const albumsData  = [
     image:CV,
     desc:"A collection of coding vibes",
     bgclor:'#b3eafc'
+},
+{
+  id:1,
+  name:"For You Girls",
+  image:c,
+  desc:"A touch of Taylor Swift energy",
+  bgclor:'#efb6fc'
+},
+{
+  id:2,
+  name:"Ganpati Bappa",
+  image:bappa,
+  desc:"just listen ",
+  bgclor:'#fc9aaa'
 }
 ]
+
+
+
 
 export const songData  = [
     {
