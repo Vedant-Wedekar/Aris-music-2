@@ -40,9 +40,6 @@ export const albumsData  = [
 }
 ]
 
-
-
-
 export const songData  = [
     {
       id:0,
@@ -52,7 +49,48 @@ export const songData  = [
       desc:"Song by Ed Sheeran",
       duration:"4:23",
       
-  }
+  },
+  {
+    id:,
+    name:"Perfect",
+    image:perfect,
+    file:perfectm,
+    desc:"Song by Ed Sheeran",
+    duration:"4:23",
+    
+},  {
+  id:2,
+  name:"Perfect",
+  image:perfect,
+  file:perfectm,
+  desc:"Song by Ed Sheeran",
+  duration:"4:23",
+  
+},  {
+  id:3,
+  name:"Perfect",
+  image:perfect,
+  file:perfectm,
+  desc:"Song by Ed Sheeran",
+  duration:"4:23",
+  
+},  {
+  id:4,
+  name:"Perfect",
+  image:perfect,
+  file:perfectm,
+  desc:"Song by Ed Sheeran",
+  duration:"4:23",
+  
+},  {
+  id:5,
+  name:"Perfect",
+  image:perfect,
+  file:perfectm,
+  desc:"Song by Ed Sheeran",
+  duration:"4:23",
+  
+}
   ]
 
   export default assets;
