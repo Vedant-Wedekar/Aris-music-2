@@ -1,5 +1,4 @@
 import perfect from './perfect.jpeg'
-import perfectm from './perfect.mp3'
 import CV from './coding-vibes.jpeg'
 import homeicon from './home.png'
 import Sea from './search.png'
@@ -8,6 +7,20 @@ import Pul from './plus.png'
 import Arr from './arrow.png'
 import bappa from './bappa.jpg'
 import c from './c.jpg'
+import p1 from './p1.jpg'
+import attt from './attt.jpg'
+import atttm from './attt.mp3'
+
+
+
+
+
+import perfectm from './perfect.mp3'
+import wed from './wed.mp3'
+
+
+
+
 export const assets = {
     perfect,
     perfectm,
@@ -47,16 +60,15 @@ export const songData  = [
       image:perfect,
       file:perfectm,
       desc:"Song by Ed Sheeran",
-      duration:"4:23",
-      
+      duration:"4:23"
   },
   {
-    id:,
-    name:"Perfect",
-    image:perfect,
-    file:perfectm,
-    desc:"Song by Ed Sheeran",
-    duration:"4:23",
+    id:1,
+    name:"we don't talk anymore",
+    image:p1,
+    file:wed,
+    desc:"Song by Charlie Puth",
+    duration:"3:50",
     
 },  {
   id:2,
@@ -68,12 +80,11 @@ export const songData  = [
   
 },  {
   id:3,
-  name:"Perfect",
-  image:perfect,
-  file:perfectm,
-  desc:"Song by Ed Sheeran",
-  duration:"4:23",
-  
+  name:"Attention",
+  image:attt,
+  file:atttm,
+  desc:"Song by Charlie Puth",
+  duration:"3:32",
 },  {
   id:4,
   name:"Perfect",
@@ -81,7 +92,7 @@ export const songData  = [
   file:perfectm,
   desc:"Song by Ed Sheeran",
   duration:"4:23",
-  
+
 },  {
   id:5,
   name:"Perfect",
@@ -91,7 +102,7 @@ export const songData  = [
   duration:"4:23",
   
 }
-  ]
+]
 
   export default assets;
 
