@@ -1,0 +1,73 @@
+/*************  ✨ Windsurf Command ⭐  *************/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Ball</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+        #pokeball {
+            background-color: #fff;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+        #pokeball:active {
+            animation: shake 0.5s ease-in-out;
+        }
+        @keyframes shake {
+            10%, 90% {
+                transform: translate3d(-1px, 0, 0);
+            }
+            20%, 80% {
+                transform: translate3d(2px, 0, 0);
+            }
+            30%, 70% {
+                transform: translate3d(-4px, 0, 0);
+            }
+            40%, 60% {
+                transform: translate3d(4px, 0, 0);
+            }
+            50% {
+                transform: translate3d(-8px, 0, 0);
+            }
+        }
+        #pokemon {
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="pokeball" onclick="catchPokemon()">
+        <div id="pokemon"></div>
+    </div>
+    <script>
+        const pokemons = ["Pikachu", "Charizard", "Squirtle", "Bulbasaur", "Charmander"];
+        function catchPokemon() {
+            const randomIndex = Math.floor(Math.random() * pokemons.length);
+            const pokemon = pokemons[randomIndex];
+            document.getElementById("pokemon").innerHTML = pokemon;
+            document.getElementById("pokemon").style.opacity = "1";
+            setTimeout(function() {
+                document.getElementById("pokemon").style.opacity = "0";
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
+/*******  4c72cb67-610b-4cb9-b2ac-b6b07db07bc6  *******/s
